@@ -2,7 +2,7 @@ import os
 import requests
 import streamlit as st
 
-BACKEND_URL = os.getenv("BACKEND_URL", "https://your-render-backend-url.onrender.com")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://tripquorum-backend.onrender.com")
 
 st.set_page_config(
     page_title="TripQuorum AI | Group Trip & Highway Micro-Planner",
